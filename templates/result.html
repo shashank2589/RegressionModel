@@ -1,1 +1,39 @@
-<h1>Price of Diamond : {{final_result}}</h1>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Price Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9d4f4;
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/478/514/546/diamonds-glow-brilliant-sparkle-wallpaper-preview.jpg');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            margin: 0;
+        }
+
+        .result-container {
+            text-align: justify;
+            border: 2px solid #ccc;
+            padding: 20px;
+            border-radius: 50px;
+            background-color: rgb(24, 101, 140);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-container">
+        <h1>Price of Diamond: ₹ {{final_result.round(2)}}</h1>
+    </div>
+</body>
+</html>
