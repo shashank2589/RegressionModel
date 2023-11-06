@@ -1,10 +1,8 @@
 from flask import Flask,request,render_template
 from src.pipeline.prediction_pipeline import CustomData,PredictPipeline
 
-
 application=Flask(__name__)
 app=application
-
 
 @app.route('/')
 def home_page():
@@ -35,6 +33,7 @@ def predict_datapoint():
         result=round(pred[0],2)
 
         return render_template('result.html',final_result=result)
+
 
 
 if __name__=="__main__":
