@@ -33,7 +33,7 @@ python app.py
 ![Home](/images/dpp-homepage.jpg)
 
 ### Prediction form
-![Predict](/images/dpp-predict.jpg)
+![Predict](/images/dpp-form.jpg)
 
 ### Result
-![result](/dpp-form.jpg)
+![result](/images/dpp-predict.jpg)
