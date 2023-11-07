@@ -4,9 +4,8 @@ COPY . /app
 
 RUN apt-get update -y && apt-get install -y --no-install-recommends gcc
 
-COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["python3", "app.py"]

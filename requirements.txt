@@ -1,6 +1,7 @@
 numpy
 pandas
 Flask
-scikit-learn
+scikit-learn==1.2.2
+matplotlib
 seaborn
 -e .
