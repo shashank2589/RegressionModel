@@ -3,6 +3,6 @@ WORKDIR /app
 COPY . /app
 
 RUN apt-get update -y \
-    && pip install --no-cache-dir -r requirements.txt
+    && pip install -r requirements.txt
 
 CMD ["python3","app.py"]
