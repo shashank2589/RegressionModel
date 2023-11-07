@@ -29,3 +29,11 @@ A web application is created using Flask to deploy the trained model. The app pr
 ```
 python app.py
 ```
+### HomePage
+![Home](/images/dpp-homepage.jpg)
+
+### Prediction form
+![Predict](/images/dpp-predict.jpg)
+
+### Result
+![result](/dpp-form.jpg)
